@@ -1,0 +1,482 @@
+/*
+=========================================================================
+            video btn Css
+=========================================================================
+*/
+@media screen and (max-width: 1345px) {
+  .sliderContent .sliderLeft h3 {
+    width: 79%;
+}
+}
+@media screen and (max-width: 1328px) {
+  .sliderContent .sliderLeft h3 {
+    width: 80%;
+}
+/*.intro_right_bottom {
+    margin-top: 24px;
+  }*/
+}
+
+@media screen and (max-width: 1199px) {
+  
+  .UpcomingContent h3 {
+    font-size: 30px !important;
+    margin-bottom: 10px !important;
+  }
+  .UpcomingContent p:first-child {
+    font-size: 20px !important;
+    
+    }
+    .UpcomingContent p:last-child {
+    font-size: 17px !important;
+    line-height: 24.33px !important;   
+    }
+    .introContent .intro_right_top {
+    margin: 0 0 21px 0;
+}
+/*pricing*/
+.burgarImage .pricing {
+    line-height: 33px;
+    letter-spacing:-5px;
+    height: 125px;
+    width: 125px;
+    padding: 7.5px;
+    bottom: -7%;
+    right: 52%;
+}
+p.circle {
+    border: 2px dashed #fff;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    padding: 22px 12px;
+}
+.burgarImage .pricing span {
+    font-size: 47px;
+}
+.burgarImage .pricing span sub{
+    font-size: 30px;
+}
+.burgarImage .pricing span:last-child {
+    font-size: 15px;
+    letter-spacing: 12px;
+}
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+   .UpcomingContent h3 {
+    letter-spacing: -1px;
+}
+.UpcomingContent p.para{
+}
+   .introContent .intro_right .title h3 {
+    font-size: 23px;
+  }
+    .introContent .intro_right .title p {
+    font-size: 18px;
+  }
+  .sliderContent .sliderLeft h2{
+    font-size: 84px;
+  }
+  .sliderContent .sliderLeft h2 span{
+    font-size: 45px;
+  }
+  .burgarImage {
+    margin-top: 80px;
+}
+ .UpcomingContent {
+     padding-top: 5px !important; 
+  }
+  .UpcomingContent p:last-child {
+    font-size: 15px !important;
+    line-height: 20.33px !important;
+}
+                /*Booking form responsive*/
+  .bookContent .heading h3 {
+    font-size: 36.6px;
+    margin-bottom: 50px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 848px) {
+     .nav_menu ul li a {
+      /*padding: 12px 18.5px;*/
+  }
+  header.head .nav_menu {
+    margin-left: 114px;
+}
+}
+@media screen and (max-width: px) {
+
+
+}
+@media screen and (max-width: 767px) {
+    .upcomingItem .responciveImage {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 323px;
+        
+    }
+    .UpcomingContent p {
+    color: #ffffff;
+}
+     
+}                             
+                                /*MIN-WIDTH min-width 768px*/
+@media screen and (min-width: 768px) {
+    .upcomingItem .responciveImage {
+        background-image: unset !important;
+          
+      }
+     
+}
+
+
+
+                              /*max-width 767px*/
+@media screen and (max-width:767px) {
+
+
+   header.head .nav_menu ul {
+    display: none;
+  }
+  a.mobile_menu i.fa-bars {
+    display: block;
+  }
+  .head_logo_contact .contact {
+    margin-top: -33px;
+    }
+          /*Slider Image Respnsive*/
+    .sliderContent .burgarImage {
+    margin-top: 10px;
+  }
+   .sliderContent .burgarImage img {
+    width: 58% !important;
+  }
+  .intro_right .intro_right_top .title{
+    
+padding-top: 50px;
+   }
+  
+          /*Intro Section Responsive*/
+      section.introWrap {
+    height: 1054px;
+    }
+       .introContent .intro_right_top {
+          margin:30px 0 !important;
+      }
+
+                          /*UpComing Product Responsive*/
+    .upcomingActive .owl-dots {
+        position: unset;
+        bottom: 0;
+        text-align: center;
+    }
+     
+    .upcoming_product_img img {
+        display: none !important;
+
+    }
+   .upcoming_product .UpcomingContent {
+        color: #ffffff;
+         padding: 38px !important;
+    }  
+    .upcomingActive {
+     padding: 0; 
+    } 
+
+  .upcoming_product .UpcomingContent p:first-child {
+      font-size: 29.17px !important;
+      }
+      .upcoming_product .UpcomingContent h3 {
+    font-size: 41.67px !important;
+      }
+      .upcoming_product .UpcomingContent p:last-child {
+      font-size: 22px !important;
+      line-height: 18px !important;
+      }
+
+
+}
+                                       /*Max-Width 660px*/
+@media screen and (max-width: 660px){
+                  /*Header Responsive*/
+  .head_logo_contact{
+    margin-bottom: 0;
+  }
+  .head .menu_Wrap {
+    margin-top: -30px;
+  }
+ 
+  
+  .head_logo_contact .contact {
+    margin-top:0;
+    margin-left: 0;
+    float: left;
+  }
+  .header_top .contactWrap{
+    position: absolute;
+    top: 15px;
+  }
+  .head_logo_contact .contact ul li a img {
+    margin-right: 0;
+  }
+  .head_logo_contact {
+    width: 50%;
+  }
+             /*Logo Resonsive*/
+  .logoWrap{
+    margin: auto;
+  }
+       header.head .logo {
+    margin-top: 16px;
+  }
+
+  .footer .footerBottom .socialIcon {
+    margin-bottom: 0 !important;
+  }
+
+    .footer .footerBottom .socialIcon {
+        display: block;
+        float: none;
+        width: 176px;
+        margin: 0px auto;
+        margin-bottom: 26px !important;
+      }
+      .footerBottom .copyright{
+        text-align: center;
+      }
+      .copyright p {
+    font-size: 14px;
+    }
+    .responsiveWidth{
+      width:100% !important;
+    }
+}
+
+
+                                /*max-width:576px*/
+
+@media screen and (max-width:576px ) {
+  .paddingZero{
+    padding:0 !important;
+  }
+   header.head .logo {
+    width: 100%;
+    margin: auto;
+  }
+   header.head .logo {
+    margin-top: 30px;
+}
+
+
+.head_logo_contact .contact {
+  float: none;
+    width: 100%;
+    margin: auto;
+}
+
+
+.sliderContent .sliderLeft h2{
+    font-size: 57px;
+  }
+
+  .upcoming_product .UpcomingContent {
+    padding: 10px !important;
+}
+
+.upcoming_product .UpcomingContent p:first-child {
+      font-size: 25px !important;
+      }
+      .upcoming_product .UpcomingContent h3 {
+    font-size: 35.67px !important;
+      }
+      .upcoming_product .UpcomingContent p:last-child {
+      font-size: 14px !important;
+      line-height: 18px !important;
+      }
+    
+ } 
+
+
+                                /*max-width:513px*/
+
+@media screen and (max-width:531px ) {                
+
+    .upcoming_product .UpcomingContent {
+          text-align: center;
+        }
+    .bookContent .heading h3 {
+        font-size: 22px;
+    }
+    .bookContent .heading p {
+    font-size: 14px;
+  }
+}
+
+
+
+                                /*max-width:320px*/
+
+@media screen and (max-width:320px ) { 
+              /*upcoming product p responsive               */
+  .upcoming_product .UpcomingContent p:last-child {
+    line-height: 15px !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/* @media (min-width: 1281px) {
+  
+  //CSS
+  
+} */
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+/* @media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+} */
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+} */
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+} */
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+/* @media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+} */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/* @media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+} 
+Bootstrap 4
+
+
+
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+Extra small devices Phones (<768px) 
+Small devices Tablets (â‰¥768px)  
+Medium devices Desktops (â‰¥992px)  
+Large devices Desktops (â‰¥1200px)
+
+
+None (auto)   750px     970px   1170px
+.col-xs-    .col-sm-    .col-md-  .col-lg-
+
+
+
+
+
+
+
+/*
+=========================================================================
+            Contact Form responsive Css
+=========================================================================
+*/

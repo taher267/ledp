@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{margin: 0;padding: 0;}
+ul,li{margin: 0;padding: 0;list-style: none;}
+a{text-decoration: none;transition: .4s;}
+a:hover{text-decoration: none;}
+h1,h2,h3,h4{margin:0;padding: 0; font-family: 'BebasNeueBold',sans-serif;}
+p{margin:0;padding: 0;font-family: 'Montserrat',sans-serif;}
+span, article{
+    font-family: 'Montserrat',sans-serif;
+}
+.marginOff{
+    margin:0 !important;
+}
+.marginLeftOff{
+    margin-left:0 !important;
+}.marginRightOff{
+    margin-right: 0 !important;
+}
+.paddingOff{
+    padding:0 !important;
+}
+.paddingLeftOff{
+    padding-left:0 !important;
+}.paddingRightOff{
+    padding-right: 0 !important;
+}
+
+/*
+=========================================================================
+           Header  Css
+=========================================================================
+*/
+.sectionPeading {
+    padding: 94px 0;
+}
+.sectionPeadingBottom {
+    padding-bottom: 94px;
+}
+.sectionPeadingTop {
+    padding-top: 94px;
+}
+header.head{
+    height: 825px;
+    display: block;
+    width: 100%;
+}
+                /*-----------Header Top Navbar----------*/
+
+.head .header_top {
+    width: 97%;
+    margin: auto;
+    height: 143px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 999;
+}
+.head_logo_contact {
+    display:inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.logo img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+header.head .logo {
+    width: 149px;
+}
+.head .menu_Wrap {
+    display: block;
+    float: right;
+}
+                             /*Mobile Menu*/
+a.mobile_menu i.fa-bars {
+    color: #3D2514;
+    font-size: 30px;
+    float: right;
+    display: none;
+}
+
+
+
+.head .menu_Wrap ul li a {
+    color: #3d2514;
+    font-weight: 400;
+    font-family: 'Bebas_Neue_Bold', sans-serif;
+}
+header.head .nav_menu {
+    margin-top: 0;
+}
+.sliderImage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 825px;
+}
+                /*---------Slider CSS------------*/
+.sliderWraper{
+    width: 100%;
+    height: 825px;
+    display: flex;
+    /*margin-top: -50px;
+    position: absolute;*/
+    position: absolute;
+    top: 0;
+    background: rebeccapurple;
+}
+.sliderWraper .sliderContent {
+    width: 97%;
+    margin: auto;
+    padding-top: 211px;
+}
+.sliderContent .sliderLeft {
+    margin-top: 74px;
+}
+/*.menu_Wrap*/
+.head_logo_contact .contact ul li a img{
+    margin-right: 47px;
+    vertical-align: middle;
+}
+.head_logo_contact .contact ul li a {
+    font-size: 17px;
+    color: #3D2514;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.nav_menu ul li a {
+    font-size: 21px;
+    padding: 12px 26.5px;
+    margin-left: -13.7px;
+}
+
+
+
+
+
+.head_logo_contact .contact {
+    display: block;
+    float: right;
+    margin-right: 31px;
+}
+.sliderContent .sliderLeft h3 {
+    font-size: 19px;
+    color: #3D2514;
+    border: 1px dashed #3D2514;
+    padding: 12px 14px;
+    margin-bottom: 45px;
+    width: 78%;
+    font-family: 'BebasNeueReg', sans-serif;
+}
+
+.sliderContent .sliderLeft h2 {
+    color: #3D2514;
+    font-size: 114px;
+    font-weight: bold;
+    line-height: 73.5px;
+    text-shadow: 3px 5px #ffffff;
+    font-family: 'Alfa_Slab_One',sans-serif;
+}
+
+.sliderContent .sliderLeft h2 span {
+    font-size: 56.5px;
+}
+.burgarImage .pricing {
+    color: #fff;
+    line-height: 52px;
+    font-family: 'BebasNeueBold', sans-serif;
+    letter-spacing: -5px;
+    height: 195px;
+    width: 195px;
+    background: #df2222;
+    padding: 9px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10%;
+    right: 58%;
+}
+.burgarImage .pricing span {
+    display: block;
+    font-size: 80px;
+    font-family: inherit;
+}
+.burgarImage .pricing span sub{
+    font-size: 30px;
+    font-family: inherit;
+}
+.burgarImage .pricing span:last-child {
+    display: block;
+    font-size: 33px;
+    letter-spacing: 12px;
+    font-family: inherit;
+}
+
+/*
+=========================================================================
+           Intro  Css
+=========================================================================
+*/
+.introWrap .introContent{
+
+display: block;
+
+font-family: 'BebasNeueBold', sans-serif;
+
+overflow: hidden;
+}
+.title {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    padding: 23px;
+}
+
+.introContent img {
+    border-radius: 7px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.intro_right_bottom {
+    position: relative;
+    display: block;
+}
+
+.intro_right_bottom .title {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    padding: 23px;
+}
+
+.intro_right {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.intro_left {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: auto;
+}
+
+
+section.introWrap {
+    margin-top: 78px;
+    display: block;
+    overflow: hidden;
+}
+
+.intro_left .title {
+    padding: 24px;
+}
+.introContent .intro_right .title h3 {
+    font-size: 27px;
+}
+
+.introContent .intro_right .title p {
+    font-size: 21px;
+}
+
+.sliderContent .burgarImage img {
+    display: block;
+    overflow: hidden;
+    margin: auto;
+}
+.intro_right_top {
+    display: block;
+    height: auto;
+    margin: 0 0 30px 0;
+}
+
+.intro_right_bottom {
+    display: block;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+.upcomingItem.item{
+    display: block;
+    width: 100%;
+}
+.UpcomingContent p {
+    color: #3d3d3d;
+}
+.upcomingItem.item h3 {
+    color: #3d2514;
+}
+.bookContent .bookForm input[type="date"] {
+    padding: 7px 24px 41px 20px;
+    display: block;
+}
+/*
+=========================================================================
+           Section Heading  Css
+=========================================================================
+*/
+.productHeading .headingWrap h2 {
+    color: #3d2514;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 32px 0;
+    font-family: 'Alfa_Slab_One',sans-serif;
+}
+
+.productHeading .headingWrap {
+    text-align: center;
+}
+
+.productHeading .headingWrap p:first-child {
+    font-size: 25px;
+    color: #3d2514;
+    background: #ffc045;
+    display: inline-block;
+    padding: 5px 12px;
+    font-family: 'BebasNeueBold', sans-serif;
+}
+
+.productHeading .headingWrap p:last-child {
+    color: #3d2514;
+    font-size: 16.67px;
+    line-height: 19.17px;
+}
+
+/*
+=========================================================================
+           Product  Css
+=========================================================================
+*/
+section.productContent {
+    display: block;
+    overflow: hidden;
+}
+.productWrap {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.productItem {
+    color: #3d2514;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.productItem img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    margin: auto;
+    transition:.4s all ease;
+}
+.productItem img:hover {
+    transform: scale(1.1);
+}
+.productItem h3 {
+    font-size: 31.5px;
+    font-family: 'BebasNeueBold';
+}
+
+.productItem p {
+    font-size: 16.67px;
+    line-height: 20.83px;
+    margin: 20px 0;
+}
+.productItem a {
+    background: #bf2222;
+    color: #ffffff;
+    padding: 9px 21px;
+    border: 1px solid #bf2222;
+    display: inline-block;
+    font-size: 16.67px;
+    font-weight: bold;
+    font-family: 'Alfa_Slab_One',sans-serif;
+}
+.productItem a:hover {
+    color: #bf2222;
+    background: transparent;
+}
+
+/*
+=========================================================================
+           Upcoming Product Css
+=========================================================================
+*/
+
+.upcomingActive {
+    -webkit-box-shadow: 12px 12px 22px -3px rgba(0,0,0,0.17);
+    -moz-box-shadow: 12px 12px 22px -3px rgba(0,0,0,0.17);
+    box-shadow: 12px 12px 22px -3px rgba(0,0,0,0.17);
+    padding: 0 27px 27px 0;
+}
+.upcoming_product .UpcomingContent {
+    padding-top: 38px;
+    display: block;
+    width: 100%;
+    color: #3d3d3d;
+}
+.upcomingItem .paddingRight{padding-right: 0;}
+.upcoming_product .UpcomingContent p:first-child {
+    font-size: 29.17px;
+    font-weight: 600;
+    font-family: 'BebasNeueReg',sans-serif;
+}
+
+.upcoming_product .UpcomingContent p:last-child {
+    font-size: 20.83px;
+    line-height: 33.33px;
+    
+}
+
+.upcoming_product .UpcomingContent h3 {
+    font-size: 41.67px;
+    font-weight: 700;
+    margin-bottom: 23px;
+    margin-top: -1px;
+    font-family: 'Alfa_Slab_One',sans-serif;
+}
+
+.upcoming_product {
+    display: block;
+}
+.upcoming_product_img img {
+    max-width: 100%;
+}
+                    /*Owl Carusel Dots*/
+.owl-stage-outer{
+    position: relative !important;
+}
+.upcomingActive .owl-dots{
+    text-align: unset;
+    position: absolute;
+    bottom: 22px;
+    margin-left: 12px;
+}
+.upcomingActive .owl-dots button.owl-dot span {
+    background: #dcdcdc;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 5px 4px !important;
+    display: inline-block;
+    border-radius: 50%;
+}
+button.owl-dot.active span {
+    background:  #ffc045 !important;
+
+}
+ button.owl-dot.active:focus {
+    outline: none !important;
+    
+}
+
+ 
+/*
+=========================================================================
+           paralax and Booking Css
+=========================================================================
+*/
+.bookingSection{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.fixedBg{
+   background-position: center 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 847px;
+}
+.bookingSection .servicesWrap {
+    margin-top: 90px;
+}
+.bookContent .heading{
+    width: 100%;
+    text-align: center;
+    color: #3d2514;
+}
+.bookContent .heading p{
+    font-size: 29.17px;
+    font-family: 'BebasNeueReg',sans-serif;
+}
+.bookContent .heading h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    font-family: 'BebasNeueBold',sans-serif;
+}
+.bookContent .bookForm{
+
+}
+.bookContent .bookForm input{
+    padding: 24px;
+    margin-bottom: 28px;
+    font-size: 20.83px;
+    font-family: 'BebasNeueReg',sans-serif;
+}
+
+.bookContent .bookForm input::placeholder{
+    font-size: 20.83px;
+    color: #3d3d3d;
+       
+}
+.bookContent .bookForm input[type="submit"]{
+    color: #ffffff;
+    background: #bf2222;
+    font-weight: bold;
+    font-size: 20.83px;
+    display: block;
+    padding: 7px 23px 38px 23px;
+    font-family: 'Alfa_Slab_One',sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #bf2222;
+    transition: .4s all ease;
+}
+.bookContent .bookForm input[type="submit"]:hover {
+    background: transparent;
+    color: #bf2222;
+}
+/*
+=========================================================================
+           Footer  Css
+=========================================================================
+*/
+footer.footer{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 66px;
+}
+footer.footer .footerBg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*height: 528px;*/
+    color: #ffffff;
+    display: block;
+}
+.footerContent .footerLogo p {
+    font-size: 57px;
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    top: 8px !important;
+    left: 97px;
+    line-height: 63px;
+    font-family: 'BebasNeueBold',sans-serif;
+}
+
+.footerContent .footerLogo img {
+    max-width: 100%;
+}
+
+.footer .footerTop {
+    padding: 45px;
+}
+.footerContent .content article {
+    font-size: 16.67px;
+    line-height: 25px;
+    margin-top: 50px;
+}
+footer.footer .footerBg ul li a i.fa {
+    color: #fff;
+}
+
+footer.footer .footerBg .footerTop ul li a i.fa {
+    font-size: 28px;
+    margin-right: 28px;
+}
+footer.footer .footerBg .footerTop ul li a {
+    color: #fff;
+    font-size: 20.83px;
+    line-height: 49px;
+    font-family: 'BebasNeueBold',sans-serif;
+}
+footer.footer .footerBg .footerTop ul li a .fa-map-marker{
+    font-size: 40.83px !important;
+    margin-right: 33px !important;
+}
+footer.footer .footerBg .footerTop ul li a i.fa:focus {
+    outline: none;
+}
+.footer .footerBottom {
+    margin-top: 170px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.footerBottom .copyright {
+    display: block;
+    overflow: hidden;
+}
+.copyright p {
+    font-size: 16.67px;
+    padding: 0 45px;
+    font-family: 'BebasNeueReg',sans-serif;
+}
+.footer .footerBottom .socialIcon {
+    display: block;
+    float: right;
+    margin-right: 27px;
+    margin-bottom: -23px;
+}
+.footer .footerBottom .socialIcon ul li a i.fa{
+  font-size:26px;
+  background: #fff;
+  color: #000 !important;
+  border-radius: 50%;
+    padding: 4px;
+    transition: 0.4s;
+}
+.footer .footerBottom .socialIcon ul li a i.fa-facebook{
+    padding: 4px 9px;
+}
+
+.footerContent .footerLogo {
+    display: block;
+    position: relative;
+}
+.footer .footerBottom .socialIcon ul li a i.fa:hover{
+  background:#BF2222 !important;
+   color: #ffffff !important;
+}
+p.circle {
+    border: 2px dashed #fff;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    padding: 40px 23px;
+}
+
+
+@media screen and (max-width: 1199px) {
+ 
+}
